@@ -91,18 +91,11 @@ public class MyApplication {
             }
         });
 
-        Thread t5 = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                service.doubleAmount();
-            }
-        });
 
         t1.start();
         t2.start();
         t3.start();
         t4.start();
-        t5.start();
         service.doubleAmount();
     }
 
