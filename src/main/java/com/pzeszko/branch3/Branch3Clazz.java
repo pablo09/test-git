@@ -5,4 +5,5 @@ package com.pzeszko.branch3;
  */
 public class Branch3Clazz {
     private String myStr;
+    private String newString;
 }
