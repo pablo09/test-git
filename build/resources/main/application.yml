@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: clothes-service
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+    database-platform: org.hibernate.dialect.H2Dialect
+  datasource:
+    url: jdbc:h2:mem:AZ;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    driver-class-name: org.h2.Driver
+
+flyway:
+  locations: classpath:db/default/migration, db/default/data, db/school/migration, db/school/data
+  schemas: DEFAULT, SCHOOL

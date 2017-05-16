@@ -1,0 +1,4 @@
+INSERT INTO SCHOOL.ADDRESS (ID, COUNTRY, CITY, STREET) VALUES (1, 'Poland', 'Warsaw', 'Kochanowskiego');
+INSERT INTO SCHOOL.ADDRESS (ID, COUNTRY, CITY, STREET) VALUES (2, 'Poland', 'Warsaw', 'Chmielna');
+INSERT INTO SCHOOL.ADDRESS (ID, COUNTRY, CITY, STREET) VALUES (3, 'Germany', 'Berlin', 'Luftwaffe');
+INSERT INTO SCHOOL.ADDRESS (ID, COUNTRY, CITY, STREET) VALUES (4, 'Poland', 'Gdansk', 'Chmielnickiego');
