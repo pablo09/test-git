@@ -7,7 +7,7 @@ public class TestGenerator extends DocumentGeneratorImpl  {
 
     public Document generate1(String name) {
         Document doc = generate(name);
-        doc.setSign("SIGNED2");
+        doc.setSign("SIGNED24");
 
         return doc;
     }
